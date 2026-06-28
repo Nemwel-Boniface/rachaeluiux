@@ -5,7 +5,7 @@ import type { Project } from "@/types";
 
 export default function FeaturedProjects() {
   return (
-    <section id="work" className="bg-[#EDEAE4] px-5 md:px-8 py-16 md:py-20">
+    <section id="work" className="bg-[#EDEAE4] px-5 md:px-8 py-16 md:py-24">
       <div className="max-w-[1400px] mx-auto">
 
         {/* Section header */}
