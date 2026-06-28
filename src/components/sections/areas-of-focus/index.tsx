@@ -8,7 +8,7 @@ interface AreaItem {
 
 export default function AreasOfFocus() {
   return (
-    <section id="expertise" className="bg-[#EDEAE4] px-5 md:px-8 pt-16 pb-20 md:pt-20 md:pb-28">
+    <section id="expertise" className="bg-[#EEE8DD] px-5 md:px-8 pt-16 pb-20 md:pt-20 md:pb-28">
       <div className="max-w-[1400px] mx-auto">
 
         {/* Section title */}
