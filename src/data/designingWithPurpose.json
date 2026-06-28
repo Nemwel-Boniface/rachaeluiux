@@ -1,0 +1,24 @@
+{
+  "title": "Designing with purpose",
+  "paragraphs": [
+    "I approach design by focusing on clarity, structure, and intent and aim to design products that feel natural to use.",
+    "My work usually starts with understanding the problem behind the interface, what needs to be simplified, what decisions users are trying to make, and where friction can be reduced without oversimplifying the experience."
+  ],
+  "toolGroups": [
+    {
+      "id": 1,
+      "label": "Structure & Thinking",
+      "tools": ["Notion", "Miro"]
+    },
+    {
+      "id": 2,
+      "label": "Design & Build",
+      "tools": ["Figjam", "Figma"]
+    },
+    {
+      "id": 3,
+      "label": "Collaboration & Handoff",
+      "tools": ["Figma Dev Mode"]
+    }
+  ]
+}
