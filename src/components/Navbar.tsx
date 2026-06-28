@@ -27,9 +27,12 @@ export default function Navbar() {
   return (
     <>
       <header className="bg-white w-full">
-        <div className="max-w-[1400px] mx-auto px-8 h-[72px] flex items-center justify-between">
+        <div className="max-w-[1400px] mx-auto px-5 md:px-8 h-[64px] md:h-[72px] flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-[#1a1a1a] text-xl font-bold tracking-tight">
+          <Link
+            href="/"
+            className="text-[#1a1a1a] text-lg md:text-xl font-bold tracking-tight"
+          >
             Rachael
           </Link>
 
@@ -54,9 +57,9 @@ export default function Navbar() {
             Let&apos;s Talk
           </Link>
 
-          {/* Mobile hamburger */}
+          {/* Mobile hamburger — three lines, last one shorter */}
           <button
-            className="md:hidden flex flex-col gap-[5px] p-2"
+            className="md:hidden flex flex-col gap-[5px] p-2 -mr-2"
             onClick={() => setMenuOpen(true)}
             aria-label="Open menu"
           >
@@ -67,41 +70,68 @@ export default function Navbar() {
         </div>
       </header>
 
-      {/* Mobile overlay menu */}
+      {/* Mobile menu overlay */}
       <div
-        className={`fixed inset-0 z-[100] bg-[#1a1a1a] flex flex-col transition-opacity duration-300 ${
-          menuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        className={`fixed inset-0 z-[100] bg-[#1a1a1a] flex flex-col transition-opacity duration-300 md:hidden ${
+          menuOpen
+            ? "opacity-100 pointer-events-auto"
+            : "opacity-0 pointer-events-none"
         }`}
       >
-        <div className="flex justify-end px-6 pt-6">
+        {/* X button — top right */}
+        <div className="flex justify-end px-5 pt-5">
           <button
             onClick={() => setMenuOpen(false)}
             aria-label="Close menu"
-            className="text-white p-2"
+            className="p-2 text-white"
           >
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
-              <line x1="2" y1="2" x2="22" y2="22" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-              <line x1="22" y1="2" x2="2" y2="22" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
+            <svg
+              width="22"
+              height="22"
+              viewBox="0 0 22 22"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <line
+                x1="1.5"
+                y1="1.5"
+                x2="20.5"
+                y2="20.5"
+                stroke="white"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+              />
+              <line
+                x1="20.5"
+                y1="1.5"
+                x2="1.5"
+                y2="20.5"
+                stroke="white"
+                strokeWidth="1.8"
+                strokeLinecap="round"
+              />
             </svg>
           </button>
         </div>
 
-        <nav className="flex flex-col px-8 pt-12 gap-8">
+        {/* Centered nav links */}
+        <nav className="flex-1 flex flex-col items-center justify-center gap-8 px-8 -mt-16">
           {links.map((link) => (
             <Link
               key={link.label}
               href={link.href}
               onClick={() => setMenuOpen(false)}
-              className="text-white text-4xl font-medium hover:text-[#C4714A] transition-colors"
+              className="text-white text-[32px] font-light tracking-wide hover:text-[#C4714A] transition-colors"
             >
               {link.label}
             </Link>
           ))}
 
+          {/* Terracotta pill CTA */}
           <Link
             href="#contact"
             onClick={() => setMenuOpen(false)}
-            className="mt-4 inline-flex items-center justify-center bg-[#C4714A] text-white text-base font-medium px-8 py-4 rounded-full transition-colors"
+            className="w-full mt-2 inline-flex items-center justify-center bg-[#C4714A] hover:bg-[#b5603a] text-white text-base font-medium px-8 py-4 rounded-full transition-colors"
           >
             Let&apos;s Talk
           </Link>
