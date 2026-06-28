@@ -76,20 +76,13 @@ function ProjectRow({ project, index }: { project: Project; index: number }) {
 
 function ProjectImage({ project }: { project: Project }) {
   return (
-    <div className="w-full rounded-xl overflow-hidden bg-white shadow-sm border border-[#e0dbd5]">
-      {/* Browser chrome bar */}
-      <div className="bg-white px-3 py-2.5 border-b border-[#e8e3de] flex items-center gap-1.5">
-        <span className="w-2.5 h-2.5 rounded-full bg-[#e8e3de]" />
-        <span className="w-2.5 h-2.5 rounded-full bg-[#e8e3de]" />
-        <span className="w-2.5 h-2.5 rounded-full bg-[#e8e3de]" />
-      </div>
-      {/* Screenshot */}
-      <div className="relative w-full aspect-[16/7] bg-[#d4cfc9]">
+    <div className="w-full rounded-xl overflow-hidden">
+      <div className="relative w-full aspect-[16/7]">
         <Image
           src={project.image}
           alt={project.title}
           fill
-          className="object-contain"
+          className="object-cover"
         />
       </div>
     </div>
