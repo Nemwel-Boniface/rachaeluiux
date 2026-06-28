@@ -35,7 +35,7 @@ export default function DesigningWithPurpose() {
                 key={group.id}
                 className="bg-[#E2DED7] rounded-2xl px-5 py-5 flex flex-row justify-between items-start gap-4"
               >
-                <p className="text-[11px] font-semibold tracking-[0.1em] uppercase text-[#7a7672] leading-snug max-w-[140px]">
+                <p className="text-[11px] font-semibold tracking-[0.1em] uppercase text-[#7a7672] leading-snug whitespace-nowrap">
                   {group.label}
                 </p>
                 <div className="flex flex-col items-end gap-1">
@@ -51,7 +51,7 @@ export default function DesigningWithPurpose() {
         </div>
 
         {/* ── DESKTOP LAYOUT ── */}
-        <div className="hidden md:grid grid-cols-2 gap-16 items-start">
+        <div className="hidden md:grid grid-cols-[5fr_6fr] gap-10 items-start">
 
           {/* Left — title + paragraphs */}
           <div className="flex flex-col gap-8">
