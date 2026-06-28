@@ -5,7 +5,7 @@
     "tags": "Website Design • UX Design • Visual Design",
     "description": "Designed a website that showcases the artist's unique style, highlights commissioned work, and creates a memorable first impression for potential clients.",
     "image": "/images/featuredProjects/Alosa-Arts.png",
-    "link": "#"
+    "link": "https://www.alosaarts.com/"
   },
   {
     "id": 2,
@@ -13,6 +13,6 @@
     "tags": "Product Design • Information Architecture • UI Design",
     "description": "A resort booking experience designed to help guests check availability, compare tent options, and book their stay through a clear and intuitive journey.",
     "image": "/images/featuredProjects/Tented-Stay.png",
-    "link": "#"
+    "link": "https://www.figma.com/proto/rH1oqVa3thMIo571AZoHmK/The-Tented-Stay--MVP-?node-id=17-982&t=7IhBu09Jb9P5E6jL-8&scaling=scale-down-width&content-scaling=fixed&page-id=0%3A1&hide-ui=1"
   }
 ]

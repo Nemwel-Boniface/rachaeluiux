@@ -46,13 +46,13 @@ const contacts = [
   {
     id: "linkedin",
     label: "LinkedIn",
-    href: "https://linkedin.com/in/rachael",
+    href: "https://www.linkedin.com/in/rachaelngotho/",
     icon: <LinkedInIcon />,
   },
   {
     id: "behance",
     label: "Behance",
-    href: "https://behance.net/rachael",
+    href: "https://www.behance.net/rachaelngotho",
     icon: <BehanceIcon />,
   },
 ];
@@ -109,7 +109,7 @@ export default function Footer() {
           <p className="text-[13px] text-[#7a7672]">
             Designed by{" "}
             <Link
-              href="https://behance.net/rachael"
+              href="https://www.linkedin.com/in/rachaelngotho/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#C4714A] transition-colors"
@@ -118,7 +118,7 @@ export default function Footer() {
             </Link>
             {" · "}Developed by{" "}
             <Link
-              href="#"
+              href="https://www.linkedin.com/in/nemwel-nyandoro/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-[#C4714A] transition-colors"
