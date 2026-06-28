@@ -51,18 +51,23 @@ function ProjectRow({ project, index }: { project: Project; index: number }) {
         <ProjectText project={project} />
       </div>
 
-      {/* ── DESKTOP: alternating columns ── */}
+      {/* ── DESKTOP: alternating columns — image 2/3, text 1/3 ── */}
       <div
-        className={`hidden md:grid grid-cols-2 gap-12 items-center ${
-          isEven ? "md:grid-flow-dense" : ""
+        className={`hidden md:grid gap-12 items-center ${
+          isEven ? "grid-cols-[1fr_2fr]" : "grid-cols-[2fr_1fr]"
         }`}
       >
-        <div className={isEven ? "md:col-start-2" : ""}>
-          <ProjectImage project={project} />
-        </div>
-        <div className={isEven ? "md:col-start-1 md:row-start-1" : ""}>
-          <ProjectText project={project} />
-        </div>
+        {isEven ? (
+          <>
+            <ProjectText project={project} />
+            <ProjectImage project={project} />
+          </>
+        ) : (
+          <>
+            <ProjectImage project={project} />
+            <ProjectText project={project} />
+          </>
+        )}
       </div>
 
     </div>
