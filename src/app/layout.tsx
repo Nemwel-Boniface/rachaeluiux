@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = "https://rachaeluiux.netlify.app/";
+const siteUrl = "https://rachaelngotho.netlify.app/";
 const ogImage = `${siteUrl}/images/Rachael-hero-image.png`;
 
 export const metadata: Metadata = {
