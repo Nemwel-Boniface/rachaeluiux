@@ -59,6 +59,7 @@ export default function Navbar() {
 
           {/* Mobile hamburger — three lines, last one shorter */}
           <button
+            type="button"
             className="md:hidden flex flex-col gap-[5px] p-2 -mr-2"
             onClick={() => setMenuOpen(true)}
             aria-label="Open menu"
@@ -81,6 +82,7 @@ export default function Navbar() {
         {/* X button — top right */}
         <div className="flex justify-end px-5 pt-5">
           <button
+            type="button"
             onClick={() => setMenuOpen(false)}
             aria-label="Close menu"
             className="p-2 text-white"
@@ -91,6 +93,7 @@ export default function Navbar() {
               viewBox="0 0 22 22"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
+              style={{ pointerEvents: "none" }}
             >
               <line
                 x1="1.5"
