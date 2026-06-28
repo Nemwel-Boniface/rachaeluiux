@@ -84,12 +84,12 @@ function ProjectImage({ project }: { project: Project }) {
         <span className="w-2.5 h-2.5 rounded-full bg-[#e8e3de]" />
       </div>
       {/* Screenshot */}
-      <div className="relative w-full aspect-[16/10] bg-[#d4cfc9]">
+      <div className="relative w-full aspect-[16/7] bg-[#d4cfc9]">
         <Image
           src={project.image}
           alt={project.title}
           fill
-          className="object-cover object-top"
+          className="object-contain"
         />
       </div>
     </div>
