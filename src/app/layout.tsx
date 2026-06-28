@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = "https://rachaelngotho.com"; // update when domain is live
+const siteUrl = "https://rachaeluiux.netlify.app/";
 const ogImage = `${siteUrl}/images/Rachael-hero-image.png`;
 
 export const metadata: Metadata = {
@@ -26,6 +26,23 @@ export const metadata: Metadata = {
     "interface design",
     "prototyping",
     "African designer",
+    "Kenyan designer",
+    "Nairobi designer",
+    "Nairobi UI/UX designer",
+    "Kenyan UI/UX designer",
+    "website designer Kenya",
+    "product designer Kenya",
+    "product designer Nairobi",
+    "systems UI designer",
+    "design systems Kenya",
+    "UI designer Nairobi",
+    "UX designer Nairobi",
+    "freelance designer Kenya",
+    "digital product designer",
+    "mobile app designer",
+    "web designer Nairobi",
+    "brand and UX designer",
+    "East Africa designer",
   ],
 
   authors: [{ name: "Rachael Ngotho", url: "https://www.linkedin.com/in/rachaelngotho/" }],
@@ -37,7 +54,7 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: siteUrl,
     siteName: "Rachael Ngotho",
-    title: "Rachael Ngotho — UI/UX & Product Designer",
+    title: "Rachael Ngotho - UI/UX & Product Designer",
     description:
       "Designing thoughtful digital experiences that solve real problems. Product strategy, UX research, and interface design.",
     images: [
@@ -45,14 +62,14 @@ export const metadata: Metadata = {
         url: ogImage,
         width: 1200,
         height: 630,
-        alt: "Rachael Ngotho — UI/UX & Product Designer",
+        alt: "Rachael Ngotho - UI/UX & Product Designer",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Rachael Ngotho — UI/UX & Product Designer",
+    title: "Rachael Ngotho - UI/UX & Product Designer",
     description:
       "Designing thoughtful digital experiences that solve real problems. Product strategy, UX research, and interface design.",
     images: [ogImage],
