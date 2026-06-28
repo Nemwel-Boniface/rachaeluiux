@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Alosa Arts Website Design",
+    "tags": "Website Design • UX Design • Visual Design",
+    "description": "Designed a website that showcases the artist's unique style, highlights commissioned work, and creates a memorable first impression for potential clients.",
+    "image": "/images/featuredProjects/alosa-arts.png",
+    "link": "#"
+  },
+  {
+    "id": 2,
+    "title": "The Tented Stay",
+    "tags": "Product Design • Information Architecture • UI Design",
+    "description": "A resort booking experience designed to help guests check availability, compare tent options, and book their stay through a clear and intuitive journey.",
+    "image": "/images/featuredProjects/tented-stay.png",
+    "link": "#"
+  },
+  {
+    "id": 3,
+    "title": "Your Next Project",
+    "tags": "UX Design • Branding • Strategy",
+    "description": "Add your next project here by updating the projects.json data file. Drop your screenshot into public/images/featuredProjects/ and update the image path.",
+    "image": "/images/featuredProjects/placeholder.png",
+    "link": "#"
+  }
+]
