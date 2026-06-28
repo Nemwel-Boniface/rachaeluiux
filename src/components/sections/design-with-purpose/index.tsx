@@ -51,7 +51,7 @@ export default function DesigningWithPurpose() {
         </div>
 
         {/* ── DESKTOP LAYOUT ── */}
-        <div className="hidden md:grid grid-cols-[5fr_6fr] gap-10 items-start">
+        <div className="hidden md:grid grid-cols-[5fr_6fr] gap-10 items-center">
 
           {/* Left — title + paragraphs */}
           <div className="flex flex-col gap-8">
