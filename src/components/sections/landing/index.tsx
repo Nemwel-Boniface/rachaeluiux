@@ -5,7 +5,7 @@ const heroImage = "/images/Rachael-hero-image.png";
 
 export default function Landing() {
   return (
-    <section className="bg-[#EDEAE4] px-4 md:px-8 pt-4 pb-8">
+    <section className="bg-[#1E1E1E] px-4 md:px-8 pt-4 pb-8">
       <div className="max-w-[1400px] mx-auto">
 
         {/* ── MOBILE LAYOUT ── */}
