@@ -68,11 +68,11 @@ export default function DesigningWithPurpose() {
           </div>
 
           {/* Right — 3 tool cards side by side */}
-          <div className="grid grid-cols-3 gap-4 items-start">
+          <div className="grid grid-cols-3 gap-4 items-stretch">
             {content.toolGroups.map((group: ToolGroup) => (
               <div
                 key={group.id}
-                className="bg-[#E2DED7] rounded-2xl p-5 flex flex-col gap-6"
+                className="bg-[#E2DED7] rounded-2xl p-5 flex flex-col justify-between gap-6"
               >
                 <p className="text-[10px] font-semibold tracking-[0.12em] uppercase text-[#7a7672] leading-snug">
                   {group.label}
